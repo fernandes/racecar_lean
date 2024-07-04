@@ -65,3 +65,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "racecar", "~> 2.11"
+
+gem "delivery_boy", "~> 1.2"
