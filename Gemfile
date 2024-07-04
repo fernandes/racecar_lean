@@ -69,3 +69,5 @@ end
 gem "racecar", "~> 2.11"
 
 gem "delivery_boy", "~> 1.2"
+
+gem "bumbler", "~> 0.9.0"

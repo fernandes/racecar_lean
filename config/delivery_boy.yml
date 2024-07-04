@@ -5,12 +5,12 @@ common: &common
 development:
   <<: *common
   brokers:
-    - localhost:9092
+    - redpanda:19092
 
 test:
   <<: *common
   brokers:
-    - localhost:9092
+    - redpanda:19092
 
 production:
   <<: *common
